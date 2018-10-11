@@ -1,5 +1,7 @@
 body {
     background-image: url(../images/ws_Rail_Road_Mountain_Desert_Fog_1920x1080-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
