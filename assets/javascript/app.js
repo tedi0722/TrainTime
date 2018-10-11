@@ -55,10 +55,10 @@ $(document).ready(function() {
     console.log(FBfirstTrain);
     console.log(FBfrequency);
 
-		var minutesAway = moment().diff(moment.unix(FBfirstTrain), "minutes") % FBfrequency ;
-		var minutes = FBfrequency - minutesAway;
+		var minutes = moment().diff(moment.unix(FBfirstTrain), "minutes") % FBfrequency ;
+		var minutesAway = FBfrequency - minutes;
 
-    var nextArrival = moment().add(minutes, "m").format("hh:mm A"); 
+    var nextArrival = moment().add(minutesAway, "m").format("hh:mm A"); 
 
     var newRow = $("<tr>").append(
       $("<td>").text(FBtrainName),

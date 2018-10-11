@@ -1,0 +1,83 @@
+body {
+    background-image: url(../images/ws_Rail_Road_Mountain_Desert_Fog_1920x1080-4.jpg);
+}
+
+
+#opbg {
+    /* background-color: rgb(255, 255, 255, 0.8); */
+}
+
+.card {
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+.form-control {
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+
+.jumbotron {
+    background: none;
+    height: 50px;
+    margin: 10px 0 10px 0;
+}
+
+h1,
+.card-header,
+th,
+td,
+label,
+#add-train-btn {
+    font-family: 'K2D', sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    color: #333333;
+    letter-spacing: 5px;
+}
+
+.card-header {
+    background-color: rgb(0, 0, 0, 0.3);
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.table thead th {
+    font-weight: bold;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.table td {
+    height: 30px;
+    vertical-align: middle;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 3px;
+    color: #333333;
+}
+
+input {
+    font-family: 'K2D', sans-serif;
+    background-color: #d6d8de;
+}
+
+#add-train-btn {
+    font-weight: bold;
+    background: #d6d8de;
+    color: #333333;
+    padding: 10px;
+    transition: all 0.5s ease 0s;
+}
+
+#add-train-btn:hover {
+    background: #333333;
+    color: #d6d8de;
+} 
+
+
+

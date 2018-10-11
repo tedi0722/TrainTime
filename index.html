@@ -10,6 +10,7 @@
     crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
   <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="assets/javascript/app.js"></script>
@@ -18,15 +19,15 @@
 
 <body>
 
-  <div class="container">
+  <div class="container" id="wrapper">
 
-    <div class="jumbotron text-center">
-      <h1 class="display-4">Train Time</h1>
+    <div class="jumbotron text-center d-flex align-items-center justify-content-center">
+      <h1>Train Time</h1>
     </div>
 
     <div class="row">
       <div class="col-md-12">
-        <div class="card mb-4">
+        <div id="opbg" class="card mb-4">
           <div class="card-header">Current Train Schedule</div>
           <div class="card-body">
             <table class="table table-sm table-hover" id="train-table">
