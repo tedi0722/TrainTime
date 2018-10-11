@@ -5,7 +5,7 @@ UCLA Bootcamp Assignment 07
 * Time matches each individual user 
 * Current Train Schedule updates on "Submit" button
 
-### SceenShot
+### ScreenShot
 ![screenshot 19](https://user-images.githubusercontent.com/40690696/46833383-5a927380-cd5d-11e8-9c45-b2a3a76546ec.png)
 
 ### Technologies Used
